@@ -10,6 +10,7 @@ import static org.junit.Assert.*;
 public class LogicTest {
     @Test
     public void whenVerticalWin() {
+
         Logic logic = new Logic(5) {
             @Override
             public int[][] convert() {

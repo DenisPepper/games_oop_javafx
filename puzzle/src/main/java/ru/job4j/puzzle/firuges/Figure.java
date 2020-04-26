@@ -1,6 +1,7 @@
 package ru.job4j.puzzle.firuges;
 
 public interface Figure {
+
     default boolean movable() {
         return true;
     }
