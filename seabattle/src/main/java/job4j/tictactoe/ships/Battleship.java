@@ -16,7 +16,7 @@ import java.util.List;
 public class Battleship implements Ship {
     private final List<Cell> positions = new ArrayList<>();
 
-    public Battleship(Cell ... cells) {
+    public Battleship(Cell[] cells) {
         this.positions.addAll(Arrays.asList(cells));
     }
 

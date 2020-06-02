@@ -81,7 +81,7 @@ public class BishopBlackTest {
         Cell source = Cell.C1;
         Cell dest = Cell.G6;
         BishopBlack bishopBlack = new BishopBlack(source);
-        bishopBlack.way(source,dest);
+        bishopBlack.way(source, dest);
     }
 
 }
